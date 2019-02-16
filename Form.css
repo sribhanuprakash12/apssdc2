@@ -1,0 +1,107 @@
+body{
+	background: #F37787;
+}
+#main{
+	background: #EE94CA;
+	text-align: center;
+}
+header{
+	background: #91F698;
+}
+#main button{
+	background: #FD975B;
+}
+.main{
+	background: #F377DE;
+	margin: 2%;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 4%;
+	box-shadow: 5px 5px 5px 5px;
+	justify-content: space-around;
+}
+.sub{
+	margin: 3%;
+	width: 95%;
+	background: #8777F3;
+	padding: 2%;
+	text-align: center;
+	border-radius: 4%;
+	box-shadow: 5px 5px 5px 5px;
+}
+.sub1{
+	background: #8777F3;
+	padding: 2%;
+	width: 40%;
+	margin: 3%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+}
+.sub2{
+	margin: 1%;
+	width: 50%;
+	margin-left: 50%;
+}
+input,select{
+	width:90%;
+	margin: 2%;
+}
+button{
+	height: 7vh;
+	width: 10%;
+	background: #D6E8D9;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px 5px;
+}
+
+/*
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	body{
+	background: #FF7C7C;
+}
+.main{
+	background: skyblue;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 5%;
+	border-radius: 4%;
+	box-shadow: 5px 5px 5px 5px;
+}
+.sub1{
+	background: #B97CFF;
+	height: 40%;
+	width: 70%;
+	margin: 15%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+
+}
+@media screen and (min-width: 480px) and (max-width: 720px) {
+	body{
+	background: orange;
+}
+.main{
+	background: #7CB5FF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 5%;
+	width: 90%;
+	border-radius: 3%;
+	box-shadow: 5px 5px 5px 5px;
+}
+.sub1{
+	background: #7CFFB1;
+	height: 40%;
+	width: 35%;
+	margin: 3%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+}
+
+}*/
